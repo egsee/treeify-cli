@@ -1,0 +1,38 @@
+{
+  "name": "treeify-cli",
+  "version": "0.0.1",
+  "description": "List tree-shaped directory in terminal",
+  "main": "tree.js",
+  "private": false,
+  "bin": {
+    "tree-cli": "bin/tree-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "egsee",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egsee/treeify-cli.git"
+  },
+  "homepage": "https://github.com/egsee/treeify-cli#readme",
+  "bugs": {
+    "url": "https://github.com/egsee/treeify-cli/issues"
+  },
+  "keywords": [
+    "tree",
+    "treeify",
+    "pretty",
+    "print",
+    "treeify terminal"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "fs-extra": "^10.0.0"
+  },
+  "engines": {
+    "node": ">= 12"
+  }
+}
