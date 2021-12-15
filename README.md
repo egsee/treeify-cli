@@ -34,16 +34,16 @@ This will print the following results:
     └── tree.js
 ```
 
-The option `--ignore` or `-i` will ignore directory that you don't want list in terminal.
+The option `--ignore` or `-i` will ignore directory that you don't want list in terminal
 
 
-<br>
-Use `--out` or `-o` to output content to a specified file.
+Use `--out` or `-o` to output content to a specified file
+
 ```
 tree-cli -d ./treeify-cli -o output-demo.md
 ```
-<br>
-Use `--level` or `-l` option to list custom depth. 
+
+Use `--level` or `-l` option to list custom depth
 
 ```
 tree-cli -d ./treeify-cli -l 1
@@ -51,7 +51,7 @@ tree-cli -d ./treeify-cli -l 1
 
 
 ### Install Globally
-In order to use `tree-cli` in terminal you should install `treeify-cli` globally.
+In order to use `tree-cli` in terminal you should install `treeify-cli` globally
 ```
 npm install -g treeify-cli
 ```
@@ -101,7 +101,7 @@ This will get the following results:
     ├── scuba diving
     └── surfing
 ```
-You can change the default node name by passing in the second parameter, the default value is {label: "name", children: "children"}, 
+You can change the default node name by passing in the second parameter, the default value is {label: "name", children: "children"}
 ```js
 tree.asTree([
     {
