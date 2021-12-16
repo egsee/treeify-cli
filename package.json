@@ -1,11 +1,11 @@
 {
   "name": "treeify-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "List tree-shaped directory in terminal",
   "main": "tree.js",
   "private": false,
   "bin": {
-    "tree-cli": "bin/tree-cli.js"
+    "treeify-cli": "bin/treeify-cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

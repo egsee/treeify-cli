@@ -3,8 +3,8 @@
 <p>
     <a href="https://www.npmjs.com/package/treeify-cli">
         <img src="https://img.shields.io/npm/v/treeify-cli" alt="NPM Version"></a>
-    <a href="https://www.npmjs.org/package/treeify-cli">
-        <img src="http://img.shields.io/npm/dm/treeify-cli.svg" alt="Downloads"></a>
+    <!-- <a href="https://www.npmjs.org/package/treeify-cli">
+        <img src="http://img.shields.io/npm/dm/treeify-cli.svg" alt="Downloads"></a> -->
     <a href="https://www.npmjs.com/package/treeify-cli">
         <img src="https://img.shields.io/npm/l/treeify-cli.svg?sanitize=true" alt="License"></a>
 </p>
@@ -14,20 +14,19 @@ You can use treeify-cli list directory structure as tree-like in terminal.
 
 Run this command in treeify-cli root directory
 ```sh
-tree-cli -d ./treeify-cli --ignore node_modules,.git,.DS_Store
+treeify-cli -d ./treeify-cli --ignore node_modules,.git,.DS_Store
 ```
 
 This will print the following results:
 ```
 ·
-└── t/treeify-cli
+└── treeify-cli
     ├── .gitignore
     ├── .npmignore
     ├── LICENSE
     ├── README.md
-    ├── README_zh.md
     ├── bin
-    │   └── tree-cli.js
+    │   └── treeify-cli.js
     ├── package-lock.json
     ├── package.json
     ├── read-dir-to-tree.js
@@ -40,18 +39,17 @@ The option `--ignore` or `-i` will ignore directory that you don't want list in 
 Use `--out` or `-o` to output content to a specified file
 
 ```
-tree-cli -d ./treeify-cli -o output-demo.md
+treeify-cli -d ./treeify-cli -o output-demo.md
 ```
 
 Use `--level` or `-l` option to list custom depth
 
 ```
-tree-cli -d ./treeify-cli -l 1
+treeify-cli -d ./treeify-cli -l 2
 ```
 
-
 ### Install Globally
-In order to use `tree-cli` in terminal you should install `treeify-cli` globally
+In order to use `treeify-cli` in terminal you should install `treeify-cli` globally
 ```
 npm install -g treeify-cli
 ```
@@ -59,7 +57,7 @@ npm install -g treeify-cli
 ### Options
 
 ```
-Usage: tree-cli [options]
+Usage: treeify-cli [options]
 
 Options:
   -V, --version               output the version number
